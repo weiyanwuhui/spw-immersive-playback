@@ -1,0 +1,31 @@
+{
+  "configs": [
+    {
+      "title": "沉浸播放",
+      "config": "config.json",
+      "preferences": [
+        {
+          "key": "immersive_playback",
+          "type": "switch",
+          "title": "在播放页应用沉浸效果",
+          "summary": "隐藏顶部栏、窗口按钮及底部播放控件。Esc 退出播放页，保留沉浸开关。不改变窗口模式，下次开启沉浸时生效。",
+          "default_value": true
+        },
+        {
+          "key": "immersive_other_pages",
+          "type": "switch",
+          "title": "在其他页面应用沉浸效果",
+          "summary": "退出播放页后继续隐藏顶部栏和窗口按钮，保留底部播放控件及鼠标操作。下次开启沉浸时生效。",
+          "default_value": true
+        },
+        {
+          "key": "lock_mouse",
+          "type": "switch",
+          "title": "沉浸时隐藏鼠标并禁用鼠标操作",
+          "summary": "默认关闭。开启后仅在沉浸播放页隐藏指针并禁用悬停、点击、滚轮和拖动；其他页面仍可操作。下次开启沉浸时生效。",
+          "default_value": false
+        }
+      ]
+    }
+  ]
+}
